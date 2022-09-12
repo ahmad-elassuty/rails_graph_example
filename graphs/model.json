@@ -1,0 +1,1563 @@
+{
+  "nodes": [
+    {
+      "id": "a781db8a-5b6d-44dc-adf9-863bdc6cdca8",
+      "labels": [
+        "VirtualModel"
+      ],
+      "name": "PolymorphicModel",
+      "properties": {}
+    },
+    {
+      "id": "11d6f19f-6e20-4e0a-9c24-3998ebb9d442",
+      "labels": [
+        "AbstractModel"
+      ],
+      "name": "ActiveRecord::Base",
+      "properties": {}
+    },
+    {
+      "id": "0c5111a9-373b-469f-8039-238eee1e5f34",
+      "labels": [
+        "AbstractModel"
+      ],
+      "name": "ActionText::Record",
+      "properties": {}
+    },
+    {
+      "id": "94925c46-c18e-43ed-bcd8-7187a867204f",
+      "labels": [
+        "AbstractModel"
+      ],
+      "name": "ActiveStorage::Record",
+      "properties": {}
+    },
+    {
+      "id": "8433ed5e-4794-4da2-9441-fa5bcfd9ec47",
+      "labels": [
+        "AbstractModel"
+      ],
+      "name": "ActionMailbox::Record",
+      "properties": {}
+    },
+    {
+      "id": "8606c593-3723-4ec2-a448-74a1fa460c1e",
+      "labels": [
+        "AbstractModel"
+      ],
+      "name": "ApplicationRecord",
+      "properties": {}
+    },
+    {
+      "id": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "labels": [
+        "Model"
+      ],
+      "name": "ActsAsTaggableOn::Tagging",
+      "properties": {
+        "table_name": "taggings",
+        "table_exists": true,
+        "columns_count": 9,
+        "db_indexes_count": 12,
+        "primary_key": "id",
+        "full_name": "ActsAsTaggableOn::Tagging"
+      }
+    },
+    {
+      "id": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "labels": [
+        "Model"
+      ],
+      "name": "ActsAsTaggableOn::Tag",
+      "properties": {
+        "table_name": "tags",
+        "table_exists": true,
+        "columns_count": 5,
+        "db_indexes_count": 1,
+        "primary_key": "id",
+        "full_name": "ActsAsTaggableOn::Tag"
+      }
+    },
+    {
+      "id": "b4415954-cc48-4b04-8bb6-320802744c66",
+      "labels": [
+        "Model"
+      ],
+      "name": "ActionText::RichText",
+      "properties": {
+        "table_name": "action_text_rich_texts",
+        "table_exists": false,
+        "columns_count": 0,
+        "db_indexes_count": 0,
+        "primary_key": "id",
+        "full_name": "ActionText::RichText"
+      }
+    },
+    {
+      "id": "e610317e-b62a-40de-a293-d62be622d865",
+      "labels": [
+        "Model"
+      ],
+      "name": "ActionText::EncryptedRichText",
+      "properties": {
+        "table_name": "action_text_rich_texts",
+        "table_exists": false,
+        "columns_count": 0,
+        "db_indexes_count": 0,
+        "primary_key": "id",
+        "full_name": "ActionText::EncryptedRichText"
+      }
+    },
+    {
+      "id": "00c5d250-5a29-4609-900e-6ce860943a9f",
+      "labels": [
+        "Model"
+      ],
+      "name": "ActiveStorage::VariantRecord",
+      "properties": {
+        "table_name": "active_storage_variant_records",
+        "table_exists": false,
+        "columns_count": 0,
+        "db_indexes_count": 0,
+        "primary_key": "id",
+        "full_name": "ActiveStorage::VariantRecord"
+      }
+    },
+    {
+      "id": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "labels": [
+        "Model"
+      ],
+      "name": "ActiveStorage::Blob",
+      "properties": {
+        "table_name": "active_storage_blobs",
+        "table_exists": false,
+        "columns_count": 0,
+        "db_indexes_count": 0,
+        "primary_key": "id",
+        "full_name": "ActiveStorage::Blob"
+      }
+    },
+    {
+      "id": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "labels": [
+        "Model"
+      ],
+      "name": "ActiveStorage::Attachment",
+      "properties": {
+        "table_name": "active_storage_attachments",
+        "table_exists": false,
+        "columns_count": 0,
+        "db_indexes_count": 0,
+        "primary_key": "id",
+        "full_name": "ActiveStorage::Attachment"
+      }
+    },
+    {
+      "id": "a540c69f-c8c8-4ef2-a51d-1fdfb9740b46",
+      "labels": [
+        "Model"
+      ],
+      "name": "ActionMailbox::InboundEmail",
+      "properties": {
+        "table_name": "action_mailbox_inbound_emails",
+        "table_exists": false,
+        "columns_count": 0,
+        "db_indexes_count": 0,
+        "primary_key": "id",
+        "full_name": "ActionMailbox::InboundEmail"
+      }
+    },
+    {
+      "id": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "labels": [
+        "Model"
+      ],
+      "name": "User",
+      "properties": {
+        "table_name": "users",
+        "table_exists": true,
+        "columns_count": 6,
+        "db_indexes_count": 0,
+        "primary_key": "id",
+        "full_name": "User"
+      }
+    },
+    {
+      "id": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "labels": [
+        "Model"
+      ],
+      "name": "Project",
+      "properties": {
+        "table_name": "projects",
+        "table_exists": true,
+        "columns_count": 5,
+        "db_indexes_count": 1,
+        "primary_key": "id",
+        "full_name": "Project"
+      }
+    },
+    {
+      "id": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "labels": [
+        "Model"
+      ],
+      "name": "Favorite",
+      "properties": {
+        "table_name": "favorites",
+        "table_exists": true,
+        "columns_count": 9,
+        "db_indexes_count": 7,
+        "primary_key": "id",
+        "full_name": "Favorite"
+      }
+    },
+    {
+      "id": "233bd54c-be35-4c41-8e65-4ecdad8f1120",
+      "labels": [
+        "Column"
+      ],
+      "name": "id",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "04e546c3-45cb-4f71-95a7-498fa6c09f4c",
+      "labels": [
+        "Column"
+      ],
+      "name": "tag_id",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "b7f6626b-50b1-459c-9f2a-15cf9676ee06",
+      "labels": [
+        "Column"
+      ],
+      "name": "taggable_type",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying"
+      }
+    },
+    {
+      "id": "5a97110e-1c44-4dbb-83cf-c671ff0ff053",
+      "labels": [
+        "Column"
+      ],
+      "name": "taggable_id",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "1c67544a-b6f8-4498-91ec-7dda840bc716",
+      "labels": [
+        "Column"
+      ],
+      "name": "tagger_type",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying"
+      }
+    },
+    {
+      "id": "15629bb3-b06a-4843-8679-9eba942e550c",
+      "labels": [
+        "Column"
+      ],
+      "name": "tagger_id",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "977463a6-f9bd-4342-b09c-3d8bcc8ff9f3",
+      "labels": [
+        "Column"
+      ],
+      "name": "context",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying(128)"
+      }
+    },
+    {
+      "id": "6900440c-cb58-4359-8d48-f92d3d056801",
+      "labels": [
+        "Column"
+      ],
+      "name": "created_at",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp without time zone"
+      }
+    },
+    {
+      "id": "910c8d46-44ce-4619-a55d-1daffa1de6e6",
+      "labels": [
+        "Column"
+      ],
+      "name": "tenant",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying(128)"
+      }
+    },
+    {
+      "id": "054ac3b2-b81f-4ae8-8d97-ff4631eddbf1",
+      "labels": [
+        "Column"
+      ],
+      "name": "id",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "e5b09c50-7273-4010-ab77-e6375db80215",
+      "labels": [
+        "Column"
+      ],
+      "name": "name",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying"
+      }
+    },
+    {
+      "id": "e2081953-c336-4834-ae56-47489de605ab",
+      "labels": [
+        "Column"
+      ],
+      "name": "created_at",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp(6) without time zone"
+      }
+    },
+    {
+      "id": "6709cf7c-404a-40b5-b7b6-48fea8613dbe",
+      "labels": [
+        "Column"
+      ],
+      "name": "updated_at",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp(6) without time zone"
+      }
+    },
+    {
+      "id": "d9cf5d13-e8d3-4872-a0c5-6db86399626c",
+      "labels": [
+        "Column"
+      ],
+      "name": "taggings_count",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": "0",
+        "type": "integer",
+        "sql_type": "integer"
+      }
+    },
+    {
+      "id": "eaaacd1c-23d4-42ae-8724-dcba9a995fe1",
+      "labels": [
+        "Column"
+      ],
+      "name": "id",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "cc4866f3-c518-44ad-bd92-e1744a50a9aa",
+      "labels": [
+        "Column"
+      ],
+      "name": "username",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying"
+      }
+    },
+    {
+      "id": "6db64aed-6a3d-41d3-af80-43f9898cea9d",
+      "labels": [
+        "Column"
+      ],
+      "name": "admin",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "boolean",
+        "sql_type": "boolean"
+      }
+    },
+    {
+      "id": "b9f897e1-1990-4e62-a68c-4ec7008a7838",
+      "labels": [
+        "Column"
+      ],
+      "name": "age",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "integer"
+      }
+    },
+    {
+      "id": "7d2789ed-9be3-4dde-b3dd-bf19a2935f4c",
+      "labels": [
+        "Column"
+      ],
+      "name": "created_at",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp(6) without time zone"
+      }
+    },
+    {
+      "id": "55e71c9c-5b02-42f3-bfd8-bb2f3398c9fc",
+      "labels": [
+        "Column"
+      ],
+      "name": "updated_at",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp(6) without time zone"
+      }
+    },
+    {
+      "id": "fb4212ea-a309-4392-b6ba-38f23e19152d",
+      "labels": [
+        "Column"
+      ],
+      "name": "id",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "ad85553a-c256-404e-b957-17ee0f48e07f",
+      "labels": [
+        "Column"
+      ],
+      "name": "owner_id",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "453a4107-0ebe-49a9-b9d3-728c4210ebfa",
+      "labels": [
+        "Column"
+      ],
+      "name": "name",
+      "properties": {
+        "nullable": true,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying"
+      }
+    },
+    {
+      "id": "ba7abd9e-c592-44c9-9924-1e1816d368b8",
+      "labels": [
+        "Column"
+      ],
+      "name": "created_at",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp(6) without time zone"
+      }
+    },
+    {
+      "id": "9c1ef6c5-2574-4134-8318-cac7220dac98",
+      "labels": [
+        "Column"
+      ],
+      "name": "updated_at",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp(6) without time zone"
+      }
+    },
+    {
+      "id": "c3a6db13-de49-4037-b7ba-08ef8d8d0327",
+      "labels": [
+        "Column"
+      ],
+      "name": "id",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "4687e3fd-1a96-4dd6-a054-a447d0e6ff77",
+      "labels": [
+        "Column"
+      ],
+      "name": "favoritable_type",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying"
+      }
+    },
+    {
+      "id": "0f1f49a5-e0bd-464d-aa71-6b260f31f3c5",
+      "labels": [
+        "Column"
+      ],
+      "name": "favoritable_id",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "a4433bd6-bb3a-4c11-a6a7-8469e4360d1f",
+      "labels": [
+        "Column"
+      ],
+      "name": "favoritor_type",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "string",
+        "sql_type": "character varying"
+      }
+    },
+    {
+      "id": "2017c0e6-b3ce-4927-9824-d1b354fda686",
+      "labels": [
+        "Column"
+      ],
+      "name": "favoritor_id",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "integer",
+        "sql_type": "bigint"
+      }
+    },
+    {
+      "id": "69da2833-f3da-487f-a9f1-8967b549c498",
+      "labels": [
+        "Column"
+      ],
+      "name": "scope",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": "favorite",
+        "type": "string",
+        "sql_type": "character varying"
+      }
+    },
+    {
+      "id": "baec2057-5f39-43ec-86b8-41921b1df6f2",
+      "labels": [
+        "Column"
+      ],
+      "name": "blocked",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": "false",
+        "type": "boolean",
+        "sql_type": "boolean"
+      }
+    },
+    {
+      "id": "9d4f6b86-1fab-461b-94ac-53b7955b8096",
+      "labels": [
+        "Column"
+      ],
+      "name": "created_at",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp(6) without time zone"
+      }
+    },
+    {
+      "id": "0ade107b-ba04-44c9-ac04-e3b6b7c7aa1a",
+      "labels": [
+        "Column"
+      ],
+      "name": "updated_at",
+      "properties": {
+        "nullable": false,
+        "comment": null,
+        "default": null,
+        "type": "datetime",
+        "sql_type": "timestamp(6) without time zone"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "a4bbbf78-31fd-43ca-9fae-8aadeaa7e9ce",
+      "label": "BelongsTo",
+      "name": "tag",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "tag_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActsAsTaggableOn::Tag",
+        "optional": false
+      }
+    },
+    {
+      "id": "148ce582-52c4-42e2-a642-1e5701c75fe8",
+      "label": "BelongsTo",
+      "name": "taggable",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "a781db8a-5b6d-44dc-adf9-863bdc6cdca8",
+      "properties": {
+        "polymorphic": true,
+        "through": false,
+        "foreign_key": "taggable_id",
+        "foreign_type": "taggable_type",
+        "type": null,
+        "dependent": null,
+        "class_name": "Taggable",
+        "optional": false
+      }
+    },
+    {
+      "id": "6da7f62e-7709-4706-8644-577a911874f4",
+      "label": "BelongsTo",
+      "name": "tagger",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "a781db8a-5b6d-44dc-adf9-863bdc6cdca8",
+      "properties": {
+        "polymorphic": true,
+        "through": false,
+        "foreign_key": "tagger_id",
+        "foreign_type": "tagger_type",
+        "type": null,
+        "dependent": null,
+        "class_name": "Tagger",
+        "optional": true
+      }
+    },
+    {
+      "id": "f4b49e75-172f-4bc6-8c32-e9a14626f279",
+      "label": "HasMany",
+      "name": "taggings",
+      "source": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "target": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "tag_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": "destroy",
+        "class_name": "ActsAsTaggableOn::Tagging",
+        "optional": false
+      }
+    },
+    {
+      "id": "a04897fc-d8d1-4528-bf54-22682c2cb5b1",
+      "label": "BelongsTo",
+      "name": "record",
+      "source": "b4415954-cc48-4b04-8bb6-320802744c66",
+      "target": "a781db8a-5b6d-44dc-adf9-863bdc6cdca8",
+      "properties": {
+        "polymorphic": true,
+        "through": false,
+        "foreign_key": "record_id",
+        "foreign_type": "record_type",
+        "type": null,
+        "dependent": null,
+        "class_name": "Record",
+        "optional": false
+      }
+    },
+    {
+      "id": "934c65e7-243c-44be-87b5-3342c0b338d5",
+      "label": "HasMany",
+      "name": "embeds_attachments",
+      "source": "b4415954-cc48-4b04-8bb6-320802744c66",
+      "target": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "record_id",
+        "foreign_type": "",
+        "type": "record_type",
+        "dependent": "destroy",
+        "class_name": "ActiveStorage::Attachment",
+        "optional": false
+      }
+    },
+    {
+      "id": "1e6aec65-1b9d-4d14-977e-53f5b1734f4b",
+      "label": "HasMany",
+      "name": "embeds_blobs",
+      "source": "b4415954-cc48-4b04-8bb6-320802744c66",
+      "target": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "properties": {
+        "polymorphic": false,
+        "through": "embeds_attachments",
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActiveStorage::Blob",
+        "optional": false
+      }
+    },
+    {
+      "id": "dbb0c1d9-99df-40ba-9e31-d289e30ad8b8",
+      "label": "BelongsTo",
+      "name": "blob",
+      "source": "00c5d250-5a29-4609-900e-6ce860943a9f",
+      "target": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActiveStorage::Blob",
+        "optional": false
+      }
+    },
+    {
+      "id": "5b1b5fd6-d60d-416e-bad3-275f50df1f63",
+      "label": "HasOne",
+      "name": "image_attachment",
+      "source": "00c5d250-5a29-4609-900e-6ce860943a9f",
+      "target": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "record_id",
+        "foreign_type": "",
+        "type": "record_type",
+        "dependent": "destroy",
+        "class_name": "ActiveStorage::Attachment",
+        "optional": false
+      }
+    },
+    {
+      "id": "82617940-86ca-4f27-8049-e62ff4e5ff75",
+      "label": "HasOne",
+      "name": "image_blob",
+      "source": "00c5d250-5a29-4609-900e-6ce860943a9f",
+      "target": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "properties": {
+        "polymorphic": false,
+        "through": "image_attachment",
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActiveStorage::Blob",
+        "optional": false
+      }
+    },
+    {
+      "id": "0b9b918e-1f61-4caa-8cc9-5d6e1d52028d",
+      "label": "HasMany",
+      "name": "variant_records",
+      "source": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "target": "00c5d250-5a29-4609-900e-6ce860943a9f",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": false,
+        "class_name": "ActiveStorage::VariantRecord",
+        "optional": false
+      }
+    },
+    {
+      "id": "1c55c65d-2631-429f-81c4-ec23414ab14c",
+      "label": "HasOne",
+      "name": "preview_image_attachment",
+      "source": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "target": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "record_id",
+        "foreign_type": "",
+        "type": "record_type",
+        "dependent": "destroy",
+        "class_name": "ActiveStorage::Attachment",
+        "optional": false
+      }
+    },
+    {
+      "id": "119bceac-4462-4715-b8fe-8d4255a86e87",
+      "label": "HasOne",
+      "name": "preview_image_blob",
+      "source": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "target": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "properties": {
+        "polymorphic": false,
+        "through": "preview_image_attachment",
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActiveStorage::Blob",
+        "optional": false
+      }
+    },
+    {
+      "id": "ae7862b5-b117-4e3c-b21d-c3e0e2155ba5",
+      "label": "HasMany",
+      "name": "attachments",
+      "source": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "target": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActiveStorage::Attachment",
+        "optional": false
+      }
+    },
+    {
+      "id": "c12dded2-cf09-4bd0-9003-61f9f84dd4b7",
+      "label": "BelongsTo",
+      "name": "record",
+      "source": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "target": "a781db8a-5b6d-44dc-adf9-863bdc6cdca8",
+      "properties": {
+        "polymorphic": true,
+        "through": false,
+        "foreign_key": "record_id",
+        "foreign_type": "record_type",
+        "type": null,
+        "dependent": null,
+        "class_name": "Record",
+        "optional": false
+      }
+    },
+    {
+      "id": "790e4c53-455d-4b6f-ae2a-57a61a906839",
+      "label": "BelongsTo",
+      "name": "blob",
+      "source": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "target": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActiveStorage::Blob",
+        "optional": false
+      }
+    },
+    {
+      "id": "67e5b3d5-5e56-4b7a-8159-037eb931f801",
+      "label": "HasOne",
+      "name": "raw_email_attachment",
+      "source": "a540c69f-c8c8-4ef2-a51d-1fdfb9740b46",
+      "target": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "record_id",
+        "foreign_type": "",
+        "type": "record_type",
+        "dependent": "destroy",
+        "class_name": "ActiveStorage::Attachment",
+        "optional": false
+      }
+    },
+    {
+      "id": "6580817c-e0ea-44a6-a374-32f8a206e38b",
+      "label": "HasOne",
+      "name": "raw_email_blob",
+      "source": "a540c69f-c8c8-4ef2-a51d-1fdfb9740b46",
+      "target": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "properties": {
+        "polymorphic": false,
+        "through": "raw_email_attachment",
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActiveStorage::Blob",
+        "optional": false
+      }
+    },
+    {
+      "id": "f74aa987-d248-4ca1-acbc-d344f7c4b07f",
+      "label": "HasOne",
+      "name": "avatar_attachment",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "record_id",
+        "foreign_type": "",
+        "type": "record_type",
+        "dependent": "destroy",
+        "class_name": "ActiveStorage::Attachment",
+        "optional": false
+      }
+    },
+    {
+      "id": "72064c10-efc5-4429-954a-ae657ebede21",
+      "label": "HasOne",
+      "name": "avatar_blob",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "properties": {
+        "polymorphic": false,
+        "through": "avatar_attachment",
+        "foreign_key": "blob_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "ActiveStorage::Blob",
+        "optional": false
+      }
+    },
+    {
+      "id": "214eabca-f44e-455c-bd88-e6451cd6fe32",
+      "label": "HasMany",
+      "name": "projects",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "user_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "Project",
+        "optional": false
+      }
+    },
+    {
+      "id": "8d9df6f0-68d6-47b5-b369-a3628c0250da",
+      "label": "BelongsTo",
+      "name": "owner",
+      "source": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "target": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "properties": {
+        "polymorphic": false,
+        "through": false,
+        "foreign_key": "owner_id",
+        "foreign_type": "",
+        "type": null,
+        "dependent": null,
+        "class_name": "User",
+        "optional": false
+      }
+    },
+    {
+      "id": "b210acd2-72aa-422e-838a-8a0811bf7a2d",
+      "label": "BelongsTo",
+      "name": "favoritable",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "a781db8a-5b6d-44dc-adf9-863bdc6cdca8",
+      "properties": {
+        "polymorphic": true,
+        "through": false,
+        "foreign_key": "favoritable_id",
+        "foreign_type": "favoritable_type",
+        "type": null,
+        "dependent": null,
+        "class_name": "Favoritable",
+        "optional": false
+      }
+    },
+    {
+      "id": "f1d33e82-8393-45c4-bdc3-f286c3d1bd35",
+      "label": "BelongsTo",
+      "name": "favoritor",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "a781db8a-5b6d-44dc-adf9-863bdc6cdca8",
+      "properties": {
+        "polymorphic": true,
+        "through": false,
+        "foreign_key": "favoritor_id",
+        "foreign_type": "favoritor_type",
+        "type": null,
+        "dependent": null,
+        "class_name": "Favoritor",
+        "optional": false
+      }
+    },
+    {
+      "id": "33498ca3-3b4e-4260-8623-423c88c8d817",
+      "label": "HasAttribute",
+      "name": "id",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "233bd54c-be35-4c41-8e65-4ecdad8f1120",
+      "properties": {
+        "primary_key": true
+      }
+    },
+    {
+      "id": "46523c75-ed9e-4ca1-b843-0b44afc68a1e",
+      "label": "HasAttribute",
+      "name": "tag_id",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "04e546c3-45cb-4f71-95a7-498fa6c09f4c",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "a223035c-21d6-4bb0-8af3-df8ad7719c8c",
+      "label": "HasAttribute",
+      "name": "taggable_type",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "b7f6626b-50b1-459c-9f2a-15cf9676ee06",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "86231911-a751-428f-ae43-c37cbb0b3468",
+      "label": "HasAttribute",
+      "name": "taggable_id",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "5a97110e-1c44-4dbb-83cf-c671ff0ff053",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "cff9ec4a-993d-4fb7-b7f1-4d33422c3778",
+      "label": "HasAttribute",
+      "name": "tagger_type",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "1c67544a-b6f8-4498-91ec-7dda840bc716",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "503ee9a8-74a0-45c5-9e83-f7dd480d4f30",
+      "label": "HasAttribute",
+      "name": "tagger_id",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "15629bb3-b06a-4843-8679-9eba942e550c",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "16d1f8b7-56e7-4df3-9284-a271ef23f793",
+      "label": "HasAttribute",
+      "name": "context",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "977463a6-f9bd-4342-b09c-3d8bcc8ff9f3",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "594f9f29-200d-4b6f-88a0-049972dd0002",
+      "label": "HasAttribute",
+      "name": "created_at",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "6900440c-cb58-4359-8d48-f92d3d056801",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "df2b7b48-526b-4eff-95e2-33842dece49f",
+      "label": "HasAttribute",
+      "name": "tenant",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "910c8d46-44ce-4619-a55d-1daffa1de6e6",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "b5f03fad-6f74-470a-b164-3a12ad0be438",
+      "label": "HasAttribute",
+      "name": "id",
+      "source": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "target": "054ac3b2-b81f-4ae8-8d97-ff4631eddbf1",
+      "properties": {
+        "primary_key": true
+      }
+    },
+    {
+      "id": "c982d258-fe02-4e4d-9445-f60991fd4d0a",
+      "label": "HasAttribute",
+      "name": "name",
+      "source": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "target": "e5b09c50-7273-4010-ab77-e6375db80215",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "c6483de8-909b-4d2b-8e81-126774bdb64e",
+      "label": "HasAttribute",
+      "name": "created_at",
+      "source": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "target": "e2081953-c336-4834-ae56-47489de605ab",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "f8686b55-6185-465c-aaf5-171b6867578c",
+      "label": "HasAttribute",
+      "name": "updated_at",
+      "source": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "target": "6709cf7c-404a-40b5-b7b6-48fea8613dbe",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "5d100704-aec7-49c2-b5c1-3d82fdd7cd79",
+      "label": "HasAttribute",
+      "name": "taggings_count",
+      "source": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "target": "d9cf5d13-e8d3-4872-a0c5-6db86399626c",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "bfe314df-c921-4784-898d-028eecb3ef80",
+      "label": "HasAttribute",
+      "name": "id",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "eaaacd1c-23d4-42ae-8724-dcba9a995fe1",
+      "properties": {
+        "primary_key": true
+      }
+    },
+    {
+      "id": "71839856-5111-4ccf-9476-56e43f40879b",
+      "label": "HasAttribute",
+      "name": "username",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "cc4866f3-c518-44ad-bd92-e1744a50a9aa",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "86ea0d30-a83b-4e1a-9c6d-97c421eb5627",
+      "label": "HasAttribute",
+      "name": "admin",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "6db64aed-6a3d-41d3-af80-43f9898cea9d",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "0e667c79-1074-4195-b6d1-dfd99a9af07a",
+      "label": "HasAttribute",
+      "name": "age",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "b9f897e1-1990-4e62-a68c-4ec7008a7838",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "6c8ff9f0-127d-41ac-8e11-15b90c4e791b",
+      "label": "HasAttribute",
+      "name": "created_at",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "7d2789ed-9be3-4dde-b3dd-bf19a2935f4c",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "bc5c410b-7c98-4e49-be5e-7b8188dee53c",
+      "label": "HasAttribute",
+      "name": "updated_at",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "55e71c9c-5b02-42f3-bfd8-bb2f3398c9fc",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "02957a62-e90e-49e0-bc35-80595a0f3fd8",
+      "label": "HasAttribute",
+      "name": "id",
+      "source": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "target": "fb4212ea-a309-4392-b6ba-38f23e19152d",
+      "properties": {
+        "primary_key": true
+      }
+    },
+    {
+      "id": "c131bc0e-2d9e-4526-ad18-be436fe9f259",
+      "label": "HasAttribute",
+      "name": "owner_id",
+      "source": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "target": "ad85553a-c256-404e-b957-17ee0f48e07f",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "6d14ae62-c4a8-47fe-9d91-3415ab299928",
+      "label": "HasAttribute",
+      "name": "name",
+      "source": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "target": "453a4107-0ebe-49a9-b9d3-728c4210ebfa",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "b0512f21-4518-4c01-b58f-e667a57d037d",
+      "label": "HasAttribute",
+      "name": "created_at",
+      "source": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "target": "ba7abd9e-c592-44c9-9924-1e1816d368b8",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "d11d8694-ed90-400d-ad42-f2d2bcd73573",
+      "label": "HasAttribute",
+      "name": "updated_at",
+      "source": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "target": "9c1ef6c5-2574-4134-8318-cac7220dac98",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "2e46f78f-33d2-4f4e-8568-2b13db2efbca",
+      "label": "HasAttribute",
+      "name": "id",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "c3a6db13-de49-4037-b7ba-08ef8d8d0327",
+      "properties": {
+        "primary_key": true
+      }
+    },
+    {
+      "id": "b4ad0062-17b6-41f9-b5a4-828a2b52bde7",
+      "label": "HasAttribute",
+      "name": "favoritable_type",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "4687e3fd-1a96-4dd6-a054-a447d0e6ff77",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "abfae0bd-c385-486e-8199-9b2c95a37761",
+      "label": "HasAttribute",
+      "name": "favoritable_id",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "0f1f49a5-e0bd-464d-aa71-6b260f31f3c5",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "40bddd9f-a399-499c-aba1-189129f5e097",
+      "label": "HasAttribute",
+      "name": "favoritor_type",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "a4433bd6-bb3a-4c11-a6a7-8469e4360d1f",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "ee7c20c0-dc07-4b0a-b24a-8d9ab1570f64",
+      "label": "HasAttribute",
+      "name": "favoritor_id",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "2017c0e6-b3ce-4927-9824-d1b354fda686",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "bf086fbe-9ca5-4ffc-b9ed-370f9b617ae1",
+      "label": "HasAttribute",
+      "name": "scope",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "69da2833-f3da-487f-a9f1-8967b549c498",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "e2ea7e87-2255-416c-9f3b-2627a57e2754",
+      "label": "HasAttribute",
+      "name": "blocked",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "baec2057-5f39-43ec-86b8-41921b1df6f2",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "dba9748c-e463-45ee-927a-fe8174ed9e4c",
+      "label": "HasAttribute",
+      "name": "created_at",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "9d4f6b86-1fab-461b-94ac-53b7955b8096",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "2db12fdf-197a-418d-af54-5ee802d4eaeb",
+      "label": "HasAttribute",
+      "name": "updated_at",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "0ade107b-ba04-44c9-ac04-e3b6b7c7aa1a",
+      "properties": {
+        "primary_key": false
+      }
+    },
+    {
+      "id": "9da72d8c-0190-42e7-81d1-997939724bf2",
+      "label": "InheritsFrom",
+      "name": "ActiveRecord::Base",
+      "source": "0c5111a9-373b-469f-8039-238eee1e5f34",
+      "target": "11d6f19f-6e20-4e0a-9c24-3998ebb9d442",
+      "properties": {}
+    },
+    {
+      "id": "794277bb-083b-4d31-ad5d-e2ff7c9bb7f1",
+      "label": "InheritsFrom",
+      "name": "ActiveRecord::Base",
+      "source": "94925c46-c18e-43ed-bcd8-7187a867204f",
+      "target": "11d6f19f-6e20-4e0a-9c24-3998ebb9d442",
+      "properties": {}
+    },
+    {
+      "id": "d5192d05-bc40-46c2-81e0-be5e40112199",
+      "label": "InheritsFrom",
+      "name": "ActiveRecord::Base",
+      "source": "8433ed5e-4794-4da2-9441-fa5bcfd9ec47",
+      "target": "11d6f19f-6e20-4e0a-9c24-3998ebb9d442",
+      "properties": {}
+    },
+    {
+      "id": "3fe2ae85-650f-4a14-b9bb-321005f44424",
+      "label": "InheritsFrom",
+      "name": "ActiveRecord::Base",
+      "source": "8606c593-3723-4ec2-a448-74a1fa460c1e",
+      "target": "11d6f19f-6e20-4e0a-9c24-3998ebb9d442",
+      "properties": {}
+    },
+    {
+      "id": "d8d48e9f-afa6-485d-afe1-c5d3e736c621",
+      "label": "InheritsFrom",
+      "name": "ActiveRecord::Base",
+      "source": "0dbbb371-74b2-48b4-a6cd-719423d8f0be",
+      "target": "11d6f19f-6e20-4e0a-9c24-3998ebb9d442",
+      "properties": {}
+    },
+    {
+      "id": "d2ade1ab-207c-42ef-8bd9-1cae03c6494d",
+      "label": "InheritsFrom",
+      "name": "ActiveRecord::Base",
+      "source": "2ae69470-1804-4cc5-ae7a-91b301049b74",
+      "target": "11d6f19f-6e20-4e0a-9c24-3998ebb9d442",
+      "properties": {}
+    },
+    {
+      "id": "d574eb6e-6ef6-42a0-9c5a-7bf81a682150",
+      "label": "InheritsFrom",
+      "name": "ActionText::Record",
+      "source": "b4415954-cc48-4b04-8bb6-320802744c66",
+      "target": "0c5111a9-373b-469f-8039-238eee1e5f34",
+      "properties": {}
+    },
+    {
+      "id": "216f9544-1448-4995-affe-fcaa538d9d54",
+      "label": "InheritsFrom",
+      "name": "ActionText::RichText",
+      "source": "e610317e-b62a-40de-a293-d62be622d865",
+      "target": "b4415954-cc48-4b04-8bb6-320802744c66",
+      "properties": {}
+    },
+    {
+      "id": "a8b99ce7-753f-460f-83ef-94d069f96891",
+      "label": "InheritsFrom",
+      "name": "ActiveStorage::Record",
+      "source": "00c5d250-5a29-4609-900e-6ce860943a9f",
+      "target": "94925c46-c18e-43ed-bcd8-7187a867204f",
+      "properties": {}
+    },
+    {
+      "id": "3f9a29f2-64e4-47bf-9c61-b5ed23137d15",
+      "label": "InheritsFrom",
+      "name": "ActiveStorage::Record",
+      "source": "d4c894b0-e47c-4fdc-a7ac-01d16c2f28ae",
+      "target": "94925c46-c18e-43ed-bcd8-7187a867204f",
+      "properties": {}
+    },
+    {
+      "id": "e6c5b9d8-0921-4ac1-9901-40f6df388e54",
+      "label": "InheritsFrom",
+      "name": "ActiveStorage::Record",
+      "source": "1ecc8193-12d4-4aff-830c-e141f1b6516d",
+      "target": "94925c46-c18e-43ed-bcd8-7187a867204f",
+      "properties": {}
+    },
+    {
+      "id": "2a79dc9c-f21a-41d2-a291-a41e48344665",
+      "label": "InheritsFrom",
+      "name": "ActionMailbox::Record",
+      "source": "a540c69f-c8c8-4ef2-a51d-1fdfb9740b46",
+      "target": "8433ed5e-4794-4da2-9441-fa5bcfd9ec47",
+      "properties": {}
+    },
+    {
+      "id": "740f2e98-4047-4687-8710-d08e2b216c3d",
+      "label": "InheritsFrom",
+      "name": "ApplicationRecord",
+      "source": "6ae81abe-3d41-415d-b99d-be1e58b06b85",
+      "target": "8606c593-3723-4ec2-a448-74a1fa460c1e",
+      "properties": {}
+    },
+    {
+      "id": "0f328431-c35e-456b-b7c2-3d36c3ee3e8d",
+      "label": "InheritsFrom",
+      "name": "ApplicationRecord",
+      "source": "2ef62b8c-215f-40d8-bfb0-4e7c8835454a",
+      "target": "8606c593-3723-4ec2-a448-74a1fa460c1e",
+      "properties": {}
+    },
+    {
+      "id": "bcbca34e-18d3-4f6e-bd17-fa3cf2491c86",
+      "label": "InheritsFrom",
+      "name": "ApplicationRecord",
+      "source": "f1a63e8f-8772-41f5-8f47-08ce67d7ceef",
+      "target": "8606c593-3723-4ec2-a448-74a1fa460c1e",
+      "properties": {}
+    }
+  ]
+}
