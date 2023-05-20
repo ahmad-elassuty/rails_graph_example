@@ -1,4 +1,4 @@
-![Graph](app/assets/images/graph.svg "Graph")
+![Graph](https://github.com/ahmad-elassuty/rails_graph_example/assets/4674035/c0ee0b41-7e6a-49eb-8a72-d8f1ee93162c)
 
 # Installation
 
