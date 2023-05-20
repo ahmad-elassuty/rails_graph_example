@@ -25,8 +25,15 @@ default: &default
   password: password
 
 development:
-  <<: *default
-  database: blog_development
+  primary:
+    <<: *default
+    database: blog_development
+
+  accounts:
+    <<: *default
+    pool: 10
+    migrations_paths: db/accounts_migrate
+    database: accounts_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -59,8 +66,15 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *default
-  database: blog_test
+  primary:
+    <<: *default
+    database: blog_test
+
+  accounts:
+    <<: *default
+    pool: 10
+    migrations_paths: db/accounts_migrate
+    database: accounts_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -83,7 +97,14 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: blog_production
-  username: blog
-  password: <%= ENV["BLOG_DATABASE_PASSWORD"] %>
+  primary:
+    <<: *default
+    database: blog_production
+    username: blog
+    password: <%= ENV["BLOG_DATABASE_PASSWORD"] %>
+
+  accounts:
+    <<: *default
+    pool: 10
+    migrations_paths: db/accounts_migrate
+    database: accounts_production
