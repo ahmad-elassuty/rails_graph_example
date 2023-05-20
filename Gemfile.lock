@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ahmad-elassuty/rails_graph.git
-  revision: 6c0ce207bac5fff1f24e29c008a3c969e4a325e6
+  revision: f2c8cfd1249bdd78308bdea71508a471c817b9b3
   specs:
     rails_graph (0.1.0)
       activerecord (>= 6.0, < 7.1)
