@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/ahmad-elassuty/rails_graph.git
-  revision: 790f9143c99fd1ad1f32ede82654f9cc318521ad
+  revision: 6fb267210d5f21379dc1f1d41fb365b530470eec
   specs:
-    rails_graph (0.2.0)
+    rails_graph (0.3.0)
       activerecord (>= 6.0, < 7.1)
       neo4j-ruby-driver (>= 4.4.0.alpha.8)
       railties (>= 6.0, < 7.1)
@@ -249,7 +249,7 @@ DEPENDENCIES
   jbuilder
   pg (~> 1.1)
   puma (~> 5.0)
-  rails (~> 7.0.4)
+  rails (~> 7.0.5)
   rails_graph!
   selenium-webdriver
   sprockets-rails
@@ -260,7 +260,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.2.1p31
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.4.10
