@@ -6,6 +6,8 @@ WORKDIR /blog
 
 COPY Gemfile /blog/Gemfile
 COPY Gemfile.lock /blog/Gemfile.lock
+COPY vendor/gems/rails_graph /blog/vendor/gems/rails_graph
+
 RUN bundle install
 
 # Add a script to be executed every time the container starts.
