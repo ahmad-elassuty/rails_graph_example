@@ -17,5 +17,5 @@ rails db:reset
 Export the data model to Neo4j database run:
 
 ```bash
-rails rails_graph:export:neo4j -- -u neo4j -p anypass123 -h neo4j://localhost:7687
+rails rails_graph:export:neo4j -- -u neo4j -p admin123 -h neo4j://localhost:7687
 ```
